@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Grocery</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/mystyle.css">
+    
+    
+</head>
+<body>
+
+<div class="header">
+  <h1>Welcome to Online Grocery!</h1>
+</div>
+
+<div class="row">
+    <div class="side">
+        <h2>Categories</h2>
+
+        <div class="navbar">
+            <form action="php/top-right.php" method="get"> 
+            <div class="dropdown">
+                <button class="dropbtn">
+                    Frozen Food
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <div class="mega-row">
+                        <div class="mega-column">
+                            <h3>Sea Food</h3>
+                            <a href="php/top-right.php?data=1000" target="top-right" class="disappear">Fish Fingers (500g)<span><img src="img/fish_fingers.jpeg"></span></a>
+                            <a href="php/top-right.php?data=1001" target="top-right" class="disappear">Fish Fingers (1000g)<span><img src="img/fish_fingers.jpeg"></span></a>
+                            <a href="php/top-right.php?data=1003" target="top-right" class="disappear">Shelled Prawns<span><img src="img/shelled_prawns.jpeg"></span></a>
+                        </div>
+                        <div class="mega-column">
+                            <h3>Milk Products</h3>
+                            <a href="php/top-right.php?data=1004" target="top-right" class="disappear">Tub Ice Cream (1 litre)<span><img src="img/ice_cream.jpg" class="disappear"></span></a>
+                            <a href="php/top-right.php?data=1005" target="top-right" class="disappear">Tub Ice Cream (2 litre)<span><img src="img/ice_cream.jpg"></span></a>
+                        </div>
+                        <div class="mega-column">
+                            <h3>Others</h3>
+                            <a href="php/top-right.php?data=10002" target="top-right" class="disappear">Hamurger Patties<span><img src="img/hamburger_patties.webp"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Fresh Food-->
+            <div class="dropdown">
+                <button class="dropbtn">
+                    Fresh Food
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <div class="mega-row">
+                        <div class="mega-column">
+                            <h3>Fruits</h3>
+                            <a href="php/top-right.php?data=3003" target="top-right" class="disappear">Navel Oranges<span><img src="img/navel_orange.jpeg"></span></a>
+                            <a href="php/top-right.php?data=3004" target="top-right" class="disappear">Bananas<span><img src="img/banana.jpeg"></span></a>
+                            <a href="php/top-right.php?data=3006" target="top-right" class="disappear">Grapes<span><img src="img/grape.jpeg"></span></a>
+                            <a href="php/top-right.php?data=3007" target="top-right" class="disappear">Apples<span><img src="img/apple.jpeg"></span></a>
+                        </div>
+                        <div class="mega-column">
+                            <h3>Fruits</h3>
+                            <a href="php/top-right.php?data=3005" target="top-right" class="disappear">Peaches<span><img src="img/peach.jpeg"></span></a>
+                        </div>
+                        <div class="mega-column">
+                            <h3>Cheese</h3>
+                            <a href="php/top-right.php?data=3000" target="top-right" class="disappear">Cheddar Cheese (500g)<span><img src="img/cheddarcheese.jpeg"></span></a>
+                            <a href="php/top-right.php?data=3001" target="top-right" class="disappear">Cheddar Cheese (1000g)<span><img src="img/cheddarcheese.jpeg"></span></a>
+                        </div>
+                        <div class="mega-column">
+                            <h3>Meat</h3>
+                            <a href="php/top-right.php?data=3002" target="top-right" class="disappear">T'Bone Steak<span><img src="img/tbone_steak.webp"></span></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="dropdown">
+                <button class="dropbtn">
+                    Beverages
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <div class="mega-row">
+                        <div class="mega-column">
+                            <h3>Coffee</h3>
+                            <a href="php/top-right.php?data=4003" target="top-right" class="disappear">200g<span><img src="img/coffee.jpeg"></span></a>
+                            <a href="php/top-right.php?data=4004" target="top-right" class="disappear">500g<span><img src="img/coffee.jpeg"></span></a>
+                        </div>
+                        <div class="mega-column">
+                            <h3>Earl Grey Tea Bags</h3>
+                            <a href="php/top-right.php?data=4000" target="top-right" class="disappear">Pack 25<span><img src="img/earlgrey_tea.jpeg"></span></a>
+                            <a href="php/top-right.php?data=4001" target="top-right" class="disappear">Pack 100<span><img src="img/earlgrey_tea.jpeg"></span></a>
+                            <a href="php/top-right.php?data=4002" target="top-right" class="disappear">Pack 200<span><img src="img/earlgrey_tea.jpeg"></span></a>
+                        </div>
+                        <div class="mega-column">
+                            <h3>Chocolate Bar</h3>
+                            <a href="php/top-right.php?data=4005" target="top-right" class="disappear">Chocolate Bar<span><img src="img/chocolate_bar.webp"></span></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="dropdown">
+                <button class="dropbtn">
+                    Home Health
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <div class="mega-row">
+                        <div class="mega-column">
+                            <h3>Bath Soap</h3>
+                            <a href="php/top-right.php?data=2002" target="top-right" class="disappear">Bath Soap<span><img src="img/bath_soap.jpeg"></span></a>
+                        </div>
+                        <div class="mega-column">
+                            <h3>Panadol</h3>
+                            <a href="php/top-right.php?data=2000" target="top-right" class="disappear">Pack 24<span><img src="img/panadol_24.webp"></span></a>
+                            <a href="php/top-right.php?data=2001" target="top-right" class="disappear">Bottle 50<span><img src="img/panadol_50.jpeg"></span></a>
+                        </div>
+                        <div class="mega-column">
+                            <h3>Washing Powder</h3>
+                            <a href="php/top-right.php?data=2005" target="top-right" class="disappear">Washing Powder<span><img src="img/washing_powder.jpeg"></span></a>
+                        </div>
+                        <div class="mega-column">
+                            <h3>Garbage Bags</h3>
+                            <a href="php/top-right.php?data=2003" target="top-right" class="disappear">small (pack 10)<span><img src="img/garbage_bag_small.jpeg"></span></a>
+                            <a href="php/top-right.php?data=2004" target="top-right" class="disappear">large (pack 50)<span><img src="img/garbage_bag_large.jpeg"></span></a>
+                        </div>
+                        <div class="mega-column">
+                            <h3>Laundry Bleach</h3>
+                            <a href="php/top-right.php?data=2006" target="top-right" class="disappear">Laundry Bleach<span><img src="img/laundry_bleach.jpg"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="dropdown">
+                <button class="dropbtn">
+                    Pet Food
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <div class="mega-row">
+                        <div class="mega-column">
+                            <h3>Dry Dog Food</h3>
+                            <a href="php/top-right.php?data=5001" target="top-right" class="disappear">small (1kg)<span><img src="img/dog_food.jpeg"></span></a>
+                            <a href="php/top-right.php?data=5000" target="top-right" class="disappear">large (5kg)<span><img src="img/dog_food.jpeg"></span></a>
+                        </div>
+                        <div class="mega-column">
+                            <h3>Bird Food</h3>
+                            <a href="php/top-right.php?data=5002" target="top-right" class="disappear">Bird Food<span><img src="img/bird_food.webp"></span></a>
+                        </div>
+                        <div class="mega-column">
+                            <h3>Cat Food</h3>
+                            <a href="php/top-right.php?data=5003" target="top-right" class="disappear" onclick=submitForm()>Cat Food<span><img src="img/cat_food.jpeg"></span></a>
+                        </div>
+                        <div class="mega-column">
+                            <h3>Fish Food</h3>
+                            <a href="php/top-right.php?data=5004" target="top-right" class="disappear">Fish Food<span><img src="img/fish_food.jpg"></span></a>
+                        </div>
+                    </div>
+                </div>
+                </form>
+            </div>
+        
+        </div>
+    </div>
+
+    <div class="main">
+        <iframe id="iframe1" name="top-right" src="php/top-right.php" frameborder="0" width="100%" height="350px"></iframe>
+        <hr>
+        <iframe id="iframe2" name="bottom-right" src="php/bottom-right.php" frameborder="0" width="100%" height="350px"></iframe>
+
+    </div>
+</div>
+
+<script>
+    function mouseOver(x) {
+
+        hideAllSubImages();
+
+        var subImageObj;
+        if(x.title == "FrozenFood")
+        {
+            subImageObj = document.getElementById("FrozenFoodImage");
+            subImageObj.style.display = "block";
+
+        }
+        else if(x.title == "FreshFood")
+        {
+            subImageObj = document.getElementById("FreshFoodImage");
+            subImageObj.style.display = "block";
+
+        }
+        else if(x.title == "Beverages")
+        {
+            subImageObj = document.getElementById("BeveragesImage");
+            subImageObj.style.display = "block";
+        }
+        else if(x.title == "HomeHealth")
+        {
+            subImageObj = document.getElementById("HomeHealthImage");
+            subImageObj.style.display = "block";
+        } 
+        else if(x.title == "PetFood")
+        {
+            subImageObj = document.getElementById("PetFoodImage");
+            subImageObj.style.display = "block";
+        }
+
+
+    }
+
+    function hideAllSubImages()
+    {
+        var subImageObj;
+        
+        subImageObj = document.getElementById("FrozenFoodImage");
+        subImageObj.style.display = "none";
+
+        subImageObj = document.getElementById("FreshFoodImage");
+        subImageObj.style.display = "none";
+
+        subImageObj = document.getElementById("BeveragesImage");
+        subImageObj.style.display = "none";
+
+        subImageObj = document.getElementById("HomeHealthImage");
+        subImageObj.style.display = "none";
+
+        subImageObj = document.getElementById("PetFoodImage");
+        subImageObj.style.display = "none";
+    }
+    
+    </script>
+
+</body>
+</html>
